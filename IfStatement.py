@@ -17,4 +17,10 @@ class IfStatement:
             print("Sorry no savings")
         elif savings < 500:
             print('well done')
+        elif savings < 1000:
+            print('That is a tidy sum')
+        elif savings < 10000:
+            print('Welcome Sir!')
+        else:
+            print('Thank you')
 
